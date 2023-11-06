@@ -1,0 +1,419 @@
+body {
+    background: #fffcfc;
+}
+.header {
+    background: url(images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 0%;
+}
+.blur {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 45%;
+    color: white;
+}
+.blur h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+}
+.blur h4 {
+    margin: 60px 0px;
+}
+.blur button {
+    padding: 15px 24px;
+    background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+    border-radius: 0px 20px 20px 20px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.about-us ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 5%;
+}
+
+.set-up-call {
+    background: #f3f3f3;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.set-up-call-inner {
+    width: 55%;
+}
+.zero-cost {
+    padding: 30px 10px;
+    background: #f3f3f3;
+    border: 3px solid #5a26e7;
+    box-shadow: 0px 39px 54px #d9d9d9;
+    border-radius: 20px;
+    margin: 3% 0%;
+}
+.set-up-call button {
+    padding: 15px 24px;
+    background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+    border-radius: 0px 20px 20px 20px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.process {
+    background: url(images/circles-bg.svg), white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5% 0%;
+}
+
+.process-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 1400px;
+}
+.info-wrapper,
+.info-wrapper-2 {
+    position: relative;
+}
+.info-wrapper div {
+    padding: 16px;
+    border: 1px solid #5a26e7;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 141px;
+    width: 430px;
+}
+
+.info-wrapper-2 div {
+    padding: 16px;
+    border: 1px solid #5a26e7;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 141px;
+    width: 430px;
+}
+
+.last-info-wrapper {
+    padding: 16px;
+    border: 1px solid #5a26e7;
+    border-radius: 20px;
+}
+
+.love {
+    padding: 32px 0px;
+    background: #f3f3f3;
+}
+.love-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.love-wrapper img {
+    padding-right: 100px;
+}
+.love-wrapper h4 {
+    font-weight: 700;
+    margin: 50px 0%;
+}
+/* different */
+.different-circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0%;
+}
+.different-circles p {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #5a26e7;
+    border-radius: 20px;
+    font-weight: 900;
+}
+.different-cards-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.different-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background: #fffcfc;
+    box-shadow: 0px 39px 54px #d9d9d9;
+    border-radius: 20px;
+    width: 22%;
+    height: 290px;
+    border-bottom: 6px solid #5a26e7;
+}
+.different-card h4 {
+    color: #5a26e7;
+    font-weight: 700;
+    margin: 0px 0px 0px 10px;
+}
+/* call */
+.call h3 {
+    color: #4a4a4a;
+    margin-left: 20px;
+}
+/* calendly */
+.calendly-wrapper {
+    background: #f3f3f3;
+    position: relative;
+    padding: 3% 0%;
+    margin-top: 5%;
+    border-radius: 12px;
+}
+.calendly-wrapper img {
+    max-width: 15%;
+    height: auto;
+    position: absolute;
+    top: -75px;
+}
+.calendly-wrapper p {
+    margin: 0 0 0 14em;
+    color: #606060;
+}
+.calendly-btn {
+    background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+    border-radius: 0px 20px 20px 20px;
+    padding: 12px 56px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+@media only screen and (max-width: 992px) {
+    .header {
+        background: url(images/header-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10% 0%;
+    }
+    .blur {
+        padding: 10px 10px 10px 20px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(2px);
+        width: 90%;
+        margin: auto;
+    }
+    .blur h1 {
+        font-size: 20px;
+        line-height: 27px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .blur button {
+        padding: 15px 24px;
+        background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+        border-radius: 0px 20px 20px 20px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    /* .about-us img {
+        width: 40px;
+        height: 40px;
+    } */
+    .about-us ul {
+        list-style-type: disc;
+        padding-left: 2em;
+        padding-right: 0;
+    }
+    .set-up-call {
+        background: #f3f3f3;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .set-up-call-inner {
+        width: 75%;
+    }
+    .zero-cost {
+        padding: 10px;
+        background: #f3f3f3;
+        border: 3px solid #5a26e7;
+        box-shadow: 0px 39px 54px #d9d9d9;
+        border-radius: 20px;
+        margin: 10% 0%;
+    }
+    .set-up-call button {
+        padding: 15px 24px;
+        background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+        border-radius: 0px 20px 20px 20px;
+        border: none;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .process {
+        background: white;
+        padding: 5% 0%;
+        position: relative;
+    }
+
+    .process-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 1000px;
+        width: 80%;
+        margin: auto;
+    }
+    .info-wrapper,
+    .info-wrapper-2 {
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .process-wrapper img {
+        width: 40px;
+        height: 40px;
+    }
+    .info-wrapper img,
+    .info-wrapper-2 img {
+        height: 90px;
+        width: 20px;
+    }
+    .info-wrapper div {
+        padding: 10px 0px;
+        border: none;
+        border-radius: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .info-wrapper-2 div {
+        padding: 10px 0px;
+        border: none;
+        border-radius: none;
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .last-info-wrapper {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+    .process-absolute {
+        left: 0;
+        top: 100px;
+        position: absolute;
+        width: 80px !important;
+    }
+    .process-absolute-2 {
+        right: 0;
+        top: 50%;
+        position: absolute;
+        width: 40px !important;
+    }
+    .love {
+        padding: 32px 0px;
+        background: #f3f3f3;
+    }
+    .love-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .love-wrapper img {
+        padding-right: 0;
+        margin-bottom: -20px;
+    }
+    .love-wrapper h4 {
+        font-weight: 700;
+        margin: 20px 0%;
+    }
+    /* different */
+    .different-circles {
+        flex-direction: column;
+    }
+    .different-circles p {
+        padding: 10px;
+    }
+    .different-cards-wrapper {
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .different-card {
+        width: 100%;
+        height: 170px;
+        margin: 20px 0px;
+    }
+    .different-card h4 {
+        color: #5a26e7;
+        font-weight: 700;
+        margin: 0px 0px 0px 10px;
+    }
+    /* calendly */
+    .calendly-wrapper {
+        margin-top: 100px;
+    }
+    .calendly-wrapper .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .calendly-wrapper p {
+        padding-bottom: 20px;
+        margin: -74px auto 0px auto;
+        text-align: center;
+        width: 50%;
+    }
+    .calendly-wrapper img {
+        height: auto;
+        position: relative;
+        max-width: 100%;
+        left: 25%;
+    }
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}

@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Monrope";
+    src: url(Manrope-VariableFont_wght.ttf);
+}
+* {
+    font-family: "Monrope";
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+.section-m {
+    margin: 180px auto;
+}
+h2 {
+    font-size: 40px !important;
+    line-height: 55px !important;
+}
+h3 {
+    font-size: 32px !important;
+    line-height: 44px !important;
+    font-weight: bold !important;
+}
+h4 {
+    font-size: 24px !important;
+    line-height: 33px !important;
+}
+h5{
+    font-size: 18px !important;
+    line-height: 120% !important;
+}
+p {
+    font-size: 20px;
+    line-height: 27px;
+}
+.zoom-hover {
+    transition: transform 0.3s;
+}
+.zoom-hover:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+.title-gradient {
+    background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+@media only screen and (max-width: 992px) {
+    html {
+        overflow-x: hidden !important;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+    .section-m {
+        margin: 88px auto;
+    }
+    h2 {
+        font-size: 24px !important;
+        line-height: 120% !important;
+    }
+    h3 {
+        font-size: 20px !important;
+        line-height: 120% !important;
+    }
+    h4 {
+        font-size: 16px !important;
+        line-height: 120% !important;
+    }
+    p {
+        font-size: 16px;
+        line-height: 120% !important;
+    }
+}
+
+
+

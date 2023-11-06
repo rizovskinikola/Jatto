@@ -1,0 +1,592 @@
+/* header */
+.header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/header-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 5% 0%;
+    position: relative;
+}
+.blur-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 20px 40px 40px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 45%;
+}
+.blur-header h1 {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 100px;
+}
+.blur-header button {
+    background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+    border-radius: 0px 20px 20px 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fffcfc;
+    padding: 15px 24px;
+    transition: transform 0.2s; /* Animation */
+}
+.header-circles {
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+}
+/* header */
+
+.logos-wrapper {
+    background: #f3f3f3;
+    padding: 30px 0px;
+}
+/* hire */
+.hire-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.hire-card div {
+    padding: 20px 10px;
+    background: #ffffff;
+    border-bottom: 6px solid #5a26e7;
+    box-shadow: 0px 39px 54px #d9d9d9;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+.hire-card div h4 {
+    font-weight: 700;
+}
+.hire-card div h4 span {
+    font-size: 18px;
+}
+/* services */
+.services-wrapper {
+    padding: 5% 0px;
+    background: #f3f3f3;
+    text-align: center;
+    position: relative;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 20px auto;
+    background: #f3f3f3;
+    filter: drop-shadow(0px 39px 54px #d9d9d9);
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+}
+.services h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #4a4a4a;
+    padding: 30px 20px;
+}
+.services-wrapper img {
+    position: absolute;
+    bottom: 50px;
+    right: 10%;
+    z-index: 1;
+}
+/* process */
+.process {
+    text-align: center;
+}
+.process-wrapper {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.process-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+.process-card div {
+    padding: 10px;
+    background: #fffcfc;
+    border: 1px solid #5a26e7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 100px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.process-card div p {
+    margin: 0;
+}
+.first-arrow {
+    margin-top: -40px;
+}
+.middle-card-m {
+    margin-top: 90px;
+}
+.second-arrow {
+    margin-top: 150px;
+}
+.end-card-m {
+    margin-top: 190px;
+}
+.process button {
+    padding: 15px 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fffcfc;
+    background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+    border-radius: 0px 20px 20px 20px;
+    border: none;
+    margin-top: 100px;
+}
+
+/* expertise */
+.expertise {
+    background: url(images/expertise-bg.svg), #f3f3f3;
+    padding: 30px 0px;
+    text-align: center;
+}
+.expertise-cards-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+.expertise-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #5a26e7;
+    box-shadow: 0px 39px 54px #d9d9d9;
+    border-radius: 20px;
+    width: 30%;
+    margin: 20px;
+    height: 452px;
+}
+.expertise-shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px -10px 0px #5a26e7;
+}
+.expert-name {
+    display: flex;
+    align-items: center;
+    background: #f3f3f3;
+    border: 1px solid #5a26e7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 100%;
+    text-align: left;
+}
+.expert-name img {
+    margin-right: 15px;
+}
+.expertise-card h5 {
+    margin: 10px 0px;
+}
+.expertise-card h6 {
+    padding: 15px 10px;
+    background: #f3f3f3;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 24px 32px;
+    background: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px -10px 0px #5a26e7;
+    border-radius: 8px;
+}
+.modal-content .btn-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.modal-content form {
+    text-align: left;
+}
+.modal-content form label {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+.modal-content form input {
+    padding: 8px;
+    border: 1px solid #5a26e7;
+    border-radius: 8px;
+    width: 100%;
+}
+.modal-content ._form_element {
+    margin: 20px 0px;
+}
+.modal-content form button {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    background: #5a26e7;
+    border-radius: 0px 20px 20px 20px;
+    color: #fffcfc;
+    padding: 15px 24px;
+    border: none;
+}
+.load-more-btn {
+    padding: 20px;
+    background: #5a26e7;
+    border-radius: 0px 20px 20px 20px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+/* different */
+.different-circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0%;
+}
+.different-circles p {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #5a26e7;
+    border-radius: 20px;
+    font-weight: 900;
+}
+.different-cards-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.different-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background: #fffcfc;
+    box-shadow: 0px 39px 54px #d9d9d9;
+    border-radius: 20px;
+    width: 22%;
+    height: 290px;
+    border-bottom: 6px solid #5a26e7;
+}
+.different-card h4 {
+    color: #5a26e7;
+    font-weight: 700;
+    margin: 0px 0px 0px 10px;
+}
+/* forbes */
+.forbes {
+    background: #f3f3f3;
+    padding: 50px 0px;
+}
+.forbes-cards-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forbes-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0px 39px 54px #d9d9d9;
+    border-radius: 20px;
+    width: 25%;
+    margin: 20px;
+}
+.forbes-card a {
+    text-decoration: none;
+    color: #000000;
+}
+/* call */
+.call h3 {
+    color: #4a4a4a;
+    margin-left: 20px;
+}
+/* calendly */
+.calendly-wrapper {
+    background: #f3f3f3;
+    position: relative;
+    padding: 3% 0%;
+    margin-top: 5%;
+    border-radius: 12px;
+}
+.calendly-wrapper img {
+    max-width: 15%;
+    height: auto;
+    position: absolute;
+    top: -75px;
+}
+.calendly-wrapper p {
+    margin: 0 0 0 14em;
+    color: #606060;
+}
+.calendly-btn {
+    background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+    border-radius: 0px 20px 20px 20px;
+    padding: 12px 56px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+@media only screen and (max-width: 992px) {
+    /* header */
+    .header {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/header-img-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 50px 0px;
+        position: relative;
+    }
+    .blur-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 10px 10px 20px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+        width: 85%;
+        margin: auto;
+    }
+    .blur-header h1 {
+        font-size: 20px;
+        line-height: 27px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 100px;
+    }
+    .blur-header button {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    /* hire */
+    .hire-card {
+        width: 90%;
+        margin: 5% 0%;
+    }
+    .hire-card div {
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .hire-card div h4 span {
+        font-size: 16px;
+    }
+    /* services */
+    .services-wrapper {
+        padding: 70px 0px;
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 45%;
+        margin: 20px auto;
+        border-radius: 0px;
+    }
+    .services-wrapper img {
+        position: absolute;
+        bottom: 27px;
+        right: 10%;
+        z-index: 1;
+        max-width: 150px;
+    }
+    /* process */
+    .process-wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 7%;
+    }
+    .process-card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0px !important;
+    }
+    .process-card div {
+        padding: 10px;
+        background: #fffcfc;
+        border: 1px solid #5a26e7;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        margin-top: 20px;
+        height: 85px;
+        width: 209px;
+    }
+    .process-arrow-down {
+        margin: 20px 0px;
+    }
+    .process-card div p {
+        margin: 0;
+    }
+    .middle-card-m,
+    .end-card-m {
+        margin-top: 0px;
+    }
+    .process button {
+        padding: 15px 24px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        color: #fffcfc;
+        background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+        border-radius: 0px 20px 20px 20px;
+        border: none;
+        margin-top: 100px;
+    }
+    /* expertise */
+    .expertise-cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .expertise-card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 20px;
+        width: 100%;
+        margin: 20px;
+        height: 380px;
+    }
+    .expertise-card h5 {
+        color: #4500ff;
+        font-size: 16px !important;
+    }
+    .expertise-card h6 {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 55px 24px 32px;
+        background: #f3f3f3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px -10px 0px #5a26e7;
+        border-radius: 8px;
+    }
+    .modal-content form {
+        text-align: left;
+    }
+    .modal-content form label {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .modal-content form input {
+        padding: 8px;
+        border: 1px solid #5a26e7;
+        border-radius: 8px;
+        width: 100%;
+    }
+    .modal-content form button {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    /* different */
+    .different-circles {
+        flex-direction: column;
+    }
+    .different-circles p {
+        padding: 10px;
+    }
+    .different-cards-wrapper {
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .different-card {
+        width: 100%;
+        height: 190px;
+        margin: 20px 0px;
+    }
+    .different-card h4 {
+        color: #5a26e7;
+        font-weight: 700;
+        margin: 0px 0px 0px 10px;
+    }
+    /* forbes */
+    .forbes {
+        padding: 30px 0px;
+    }
+    .forbes-cards-wrapper {
+        flex-direction: column;
+    }
+    .forbes-card {
+        display: flex;
+        width: 80%;
+        margin: 20px auto;
+    }
+    /* calendly */
+    .calendly-wrapper {
+        margin-top: 100px;
+    }
+    .calendly-wrapper .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .calendly-wrapper p {
+        padding-bottom: 20px;
+        margin: -74px auto 0px auto;
+        text-align: center;
+        width: 50%;
+    }
+    .calendly-wrapper img {
+        height: auto;
+        position: relative;
+        max-width: 100%;
+        left: 25%;
+    }
+}
+
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}

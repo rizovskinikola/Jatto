@@ -1,0 +1,174 @@
+.header {
+    background: url(images/header-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 0%;
+}
+.blur {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 45%;
+    color: white;
+}
+.blur h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+}
+.blur h4 {
+    margin: 60px 0px;
+}
+.blur button {
+    padding: 15px 24px;
+    background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+    border-radius: 0px 20px 20px 20px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.form-wrapper {
+    padding: 30px;
+    margin: 80px 0px;
+    border: 2px solid #5a26e7;
+}
+.form-wrapper h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.form-wrapper input,
+textarea {
+    padding: 12px;
+    border: 1px solid #5a26e7;
+    border-radius: 8px;
+    width: 50%;
+}
+.form-wrapper label {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #241e20;
+}
+.radio-wrapper {
+    display: flex;
+}
+.radio-wrapper ._row {
+    display: flex;
+}
+._checkbox-radio label {
+    font-size: 20px !important;
+    line-height: 27px;
+    color: #4a4a4a;
+}
+._checkbox-radio input {
+    width: auto;
+    margin-right: 8px;
+}
+._checkbox-radio {
+    margin-right: 10px;
+}
+
+.form-wrapper button {
+    background: #5a26e7;
+    border-radius: 0px 20px 20px 20px;
+    color: #fffcfc;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    border: none;
+    padding: 15px 24px;
+}
+._form_element {
+    margin: 30px 0px;
+}
+.all-radios-wrapper {
+    background: #f3f3f3;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .header {
+     background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10% 0%;
+    }
+    .blur {
+        padding: 10px 10px 10px 20px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(2px);
+        width: 90%;
+        margin: auto;
+    }
+    .blur h1 {
+        font-size: 20px;
+        line-height: 27px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .blur button {
+        padding: 15px 24px;
+        background: linear-gradient(239.3deg, #5a26e7 8.83%, #410291 92.03%);
+        border-radius: 0px 20px 20px 20px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .form-wrapper h3 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .form-wrapper input,
+    textarea {
+        padding: 12px;
+        border: 1px solid #5a26e7;
+        border-radius: 8px;
+        width: 100%;
+    }
+    .form-wrapper label {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .radio-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .radio-wrapper ._row {
+        display: flex;
+    }
+    ._checkbox-radio label {
+        font-size: 20px !important;
+        line-height: 27px;
+        color: #4a4a4a;
+    }
+    ._checkbox-radio input {
+        width: auto;
+        margin-right: 8px;
+    }
+    ._checkbox-radio {
+        margin-right: 10px;
+    }
+    
+    .form-wrapper button {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    ._button-wrapper {
+        text-align: center;
+    }
+    ._form_element {
+        margin: 30px 0px;
+    }
+    .all-radios-wrapper {
+        background: #f3f3f3;
+        padding: 30px;
+    }
+}
